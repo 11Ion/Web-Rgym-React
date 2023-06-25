@@ -1,0 +1,244 @@
+.Header{
+    min-height: 600px;
+    height: 100vh;
+    background: url(../../img/header.png) center / cover no-repeat fixed;
+    position: relative;
+}
+.slide__header{
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url(../../img//slide.png)  center / cover no-repeat fixed;
+    background-size: cover;
+
+}
+.Header .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.line{
+    border-top: 2px solid #A92A1D;
+    width: 132px;
+    position: absolute;
+    left: -35%;
+    top: 10%;
+}
+.header__line{
+    width: 132px;
+}
+.header__content{
+    position: relative;
+    margin-left: 17px;
+}
+.header__content h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    max-width: 460px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.header__content h1 span{
+    color: rgba(169, 42, 29, 1);
+}
+.header__btns{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 34px;
+    
+}
+.header__btn:first-child{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A92A1D;
+}
+.header__btn:first-child a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05em;   
+    color: #FFFFFF;
+}
+.header__links{
+    transform: rotate(90deg);
+    display: flex;
+    right: -5%;
+    top: 50%;
+    position: absolute;
+}
+.header__links{
+    display: flex;
+    gap: 48px;
+}
+.header__social__items{
+    display: flex;
+    gap: 48px;
+}
+.header__social__item img{
+    transform: rotate(270deg);
+}
+.header__prev_next{
+    display: flex;
+    gap: 25px;
+}
+.prev{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.prev svg{
+    transform: rotate(270deg);
+}
+.prev p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+.next{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.next svg{
+    transform: rotate(270deg);
+}
+.next p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #E74C3C;
+}
+.scroll-down{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+}
+.scroll-down__content {
+    transform: rotate(90deg);
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    bottom: 0;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+.scroll-down svg{
+    transform: rotate(270deg);
+}
+
+@media screen and (min-width: 1600px) {
+    .header__links{
+        right: 0;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header__links{
+        right: -15%;
+    }
+    .line{
+        display: none;
+    }
+    .header__line{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header__content h1{
+        line-height: 53px;
+        font-size: 30px;
+        max-width: 400px;
+    }
+    .header__links{
+        transform: rotate(0deg);
+        top: 90%;
+        right: 10%;
+        gap: 20px;
+        max-width: 300px;
+    }
+    .header__social__item img{
+        transform: rotate(0deg);
+    }
+    .header__social__items{
+        gap: 15px;
+    }
+    .scroll-down{
+        display: none;
+    }
+    .header__prev_next{
+        gap: 10px;
+    }
+    .Header{
+        background: url(../../img/header2.png) center no-repeat;
+        background-size: cover;
+    }
+
+ 
+}
+@media screen and (max-width: 315px) {
+    .Header .container{
+        align-items: flex-start;
+    }
+    .header__content{
+        padding-top: 200px;
+    }
+    .header__content h1{
+        font-size: 20px;
+        max-width: 400px;
+        line-height: 33px;
+    }
+    .header__btns{
+        gap: 10px;
+    }
+   .header__btn:first-child{
+        width: 100px;
+        height: 45px;    
+   }
+    .header__btn:first-child a{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.05em;   
+    }
+    .header__btn:last-child img{
+        width: 35px;
+        height: 35px;
+    }
+    .header__links{
+        display: block;
+    }
+    .header__social__item{
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+}

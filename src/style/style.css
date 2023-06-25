@@ -1,0 +1,523 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+main{
+    flex-grow: 1;
+}
+.App{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.page404{
+    padding-top: 150px;
+}
+.page404 h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+body{
+    position: relative;
+    background: #000000;
+}
+.experience{
+    margin-top: 155px;
+}
+.experience h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+.experience p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 790px;
+    margin: 0 auto;
+    padding-top: 29px;
+
+}
+.container-fuild{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.experience__img{
+    width: 163px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.experience__img img{
+    width: 100%;
+}
+.experience__item{
+    margin: 0 auto;
+}
+.experience__item img{
+    width: 100%;
+    max-width: 320px;
+}
+.experience__items{
+    display: flex;
+    margin-top: 113px;
+    justify-content: center;
+}
+.experience__items li:nth-child(2),.experience__items li:nth-child(4){
+    transform: translate(0,70px);
+}
+.personal__trainings__plans .container {
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal__trainings__plans .container p:first-child{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;    
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 363px;
+}
+.personal__trainings__plans .container p:last-child{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255, 0.75);
+    border-left: 2px solid #E74C3C;
+    padding-left: 14px;
+    max-width: 640px;
+}
+.personal_training_info{
+    margin-top: 187px;
+}
+.personal_training_info_image{
+    width: 100%;
+    max-width: 805px;
+}
+.personal_training_info_image img{
+    width: 100%;
+}
+.personal_training_info .container-fuild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal_training_info_text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 24px;
+}
+.personal_training_info_text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 12px;
+}
+.personal_training_info_text p{
+    max-width: 496px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255, 0.75);
+}
+.personal_training_info_text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gym__images{
+    margin-top: 290px;
+    width: 100%;
+    height: 46rem;
+    position: relative;
+}
+.gym__image{
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    right: 0;
+    transform: translate(0,-440px);
+}
+.gym__image img{
+    width: 100%;
+}
+.welcome__message{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%,50%);
+}
+.welcome__message h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.welcome__message h1 span{
+    color: rgba(231, 76, 60, 1);
+}
+.welcome__message p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 388px;
+    padding-top: 22px;
+}
+.gym__images__items{
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,0);
+    display: flex;
+    justify-content: space-between;
+}
+.gym__images__item{
+    width: 100%;
+    width: 400px;
+}
+.gym__images__item img{
+    width: 100%;
+}
+.last__gym__img{
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    bottom: -25%;
+}
+.last__gym__img img{
+    width: 100%;
+}
+
+.gym__images__item:nth-child(2){
+    transform: translate(0,-100px);
+}
+.newsletter{
+    width: 100%;
+    height: 46.625rem;
+    background: url(../img/Rectangle\ 486.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.newsletter_form h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+.newsletter_form p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 36px;
+}
+.newsletter__inputs{
+    width: 100%;
+    max-width: 402px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.newsletter__inputs input{
+    width: 100%;
+    max-width: 402px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+.newsletter__inputs input::placeholder{
+    color: #FFFFFF;
+}
+.newsletter__inputs input:focus{
+    outline: none;
+}
+.newsletter__btn_sumbit button{
+    margin-top: 16px;
+    width: 100%;
+    max-width: 402px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+    .page404 h1{
+        font-size: 30px;
+    }
+    .experience{
+        margin-top: 50px;
+    }
+    .experience p{
+        max-width: 700px;
+    }
+    .experience__items{
+        margin-top: 50px;
+    }
+    .personal__trainings__plans .container{
+        display: block;
+    }
+    .personal__trainings__plans .container p:first-child{
+        max-width: 700px;
+    }
+    .personal__trainings__plans .container p:last-child{
+        max-width: 700px;
+        margin-top: 20px;
+    }
+    .personal_training_info .container-fuild{
+        display: block;
+        max-width: 1280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+
+    }
+    .personal_training_info_image{
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .personal_training_info{
+        margin-top: 50px;
+    }
+    .personal_training_info_text{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .gym__image{
+        width: 100%;
+        max-width: 300px;
+        right: 0;
+        transform: translate(0,-240px);
+    }
+    .last__gym__img{
+        width: 100%;
+        max-width: 300px;
+        bottom: -20%;
+    }
+    .gym__images__items{
+        margin-top: 150px;
+    }
+    .page404 .container{
+        padding-bottom: 300px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .experience h1{
+        font-size: 25px;
+    }
+    .experience p{
+        font-size: 14px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .experience__img{
+        margin-top: 20px;
+    }
+    .experience .container-fuild{
+        width: 100%;
+        max-width: 1280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .experience__items{
+        width: 100%;
+        gap: 10px;
+        justify-content: left;
+        overflow-x: auto;
+        overscroll-behavior-inline:contain;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    .experience__items::-webkit-scrollbar {
+        width: 3px;
+        height: 4px; 
+    }
+    .experience__items::-webkit-scrollbar-track {
+        background: #000000;
+    }
+    .experience__items::-webkit-scrollbar-thumb {
+        background: #ffffff; 
+    }
+    .experience__items::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+    .experience__items li:nth-child(2),.experience__items li:nth-child(4){
+        transform: translate(0,0);
+    }
+    .experience__items li img{
+        width: 200px;
+    }
+    .personal__trainings__plans .container{
+        margin-top: 50px;   
+    }
+    .personal__trainings__plans .container p:first-child{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .personal__trainings__plans .container p:last-child{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .gym__image{
+        width: 100%;
+        max-width: 300px;
+        right: 50%;
+        transform: translate(50%,-100px);
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .gym__images{
+        margin-top: 150px;
+    }
+    .gym__images__items{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .gym__images__item{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .gym__images__item:nth-child(2){
+        transform: translate(0,0);
+    }
+    .gym__images__item:nth-child(3){
+        display: none;
+    }
+    .last__gym__img{
+        bottom: -20%;
+    }
+    .welcome__message{
+        left: 2%;
+        top: 70%;
+        text-align: left;
+        transform: translate(0,0);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .welcome__message p{
+        max-width: 400px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .newsletter_form h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .newsletter_form p{
+        font-size: 14px;
+    }
+    .newsletter_form input{
+        font-size: 14px;
+    }
+    .newsletter_form button{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .welcome__message{
+        top: 50%;
+    }
+    .last__gym__img{
+        bottom: 0%;
+        left: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+        transform: translate(-50%,0);
+    }
+}
